@@ -60,6 +60,17 @@ function cpl_register_podcast_episode() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'post',
 		'show_in_rest'          => true,
+		'template'            => array(
+			array(
+				'core/html',
+			),
+			array(
+				'core/heading',
+				array(
+					'content' => 'Find us on:',
+				),
+			),
+		),
 	);
 	register_post_type( 'podcast_episode', $args );
 
