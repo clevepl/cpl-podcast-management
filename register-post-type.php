@@ -4,7 +4,7 @@ namespace cpl\podcast_management;
 
 function cpl_register_podcast_episode() {
 
-	$labels = array(
+	$labels  = array(
 		'name'                  => _x( 'Podcast Episodes', 'Post Type General Name', 'cpl-podcast-management' ),
 		'singular_name'         => _x( 'Podcast Episode', 'Post Type Singular Name', 'cpl-podcast-management' ),
 		'menu_name'             => __( 'Podcast Episodes', 'cpl-podcast-management' ),
@@ -34,43 +34,32 @@ function cpl_register_podcast_episode() {
 		'filter_items_list'     => __( 'Filter items list', 'cpl-podcast-management' ),
 	);
 	$rewrite = array(
-		'slug'                  => 'podcast',
-		'with_front'            => true,
-		'pages'                 => true,
-		'feeds'                 => true,
+		'slug'       => 'podcast',
+		'with_front' => true,
+		'pages'      => true,
+		'feeds'      => true,
 	);
-	$args = array(
-		'label'                 => __( 'Podcast Episode', 'cpl-podcast-management' ),
-		'description'           => __( 'Podcast episode', 'cpl-podcast-management' ),
-		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
-		'taxonomies'            => array( ),
-		'hierarchical'          => false,
-		'public'                => true,
-		'show_ui'               => true,
-		'show_in_menu'          => true,
-		'delete_with_user'    	=> false,
-		'menu_position'         => 5,
-		'show_in_admin_bar'     => true,
-		'show_in_nav_menus'     => true,
-		'can_export'            => true,
-		'has_archive'           => true,
-		'exclude_from_search'   => false,
-		'publicly_queryable'    => true,
-		'rewrite'               => $rewrite,
-		'capability_type'       => 'post',
-		'show_in_rest'          => true,
-		'template'            => array(
-			array(
-				'core/html',
-			),
-			array(
-				'core/heading',
-				array(
-					'content' => 'Find us on:',
-				),
-			),
-		),
+	$args    = array(
+		'label'               => __( 'Podcast Episode', 'cpl-podcast-management' ),
+		'description'         => __( 'Podcast episode', 'cpl-podcast-management' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'thumbnail' ),
+		'taxonomies'          => array(),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'delete_with_user'    => false,
+		'menu_position'       => 5,
+		'show_in_admin_bar'   => true,
+		'show_in_nav_menus'   => true,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'rewrite'             => $rewrite,
+		'capability_type'     => 'post',
+		'show_in_rest'        => true,
 	);
 	register_post_type( 'podcast_episode', $args );
 
