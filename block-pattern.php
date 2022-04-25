@@ -7,7 +7,7 @@ function cpl_register_block_patterns() {
 	register_block_pattern(
 		'cpl-podcast-management/default-layout',
 		array(
-			'title'       => __( 'Podcast template', 'cpl-podcast-management' ),
+			'title'       => __( 'Podcast Episode Pattern', 'cpl-podcast-management' ),
 			'description' => _x( 'contains several blocks for the podcast template', 'Block pattern description', 'cpl-podcast-management' ),
 			'content'     => '<!-- wp:html /-->
 
