@@ -33,7 +33,7 @@ export default function Edit() {
 	return (
 		<p {...useBlockProps()}>
 			{__(
-				'Podcast Episode List – hello from the editor!',
+				'Recent Podcast episodes will appear; The actual list will display later once you press publish and view from it from the browser.',
 				'podcast-episode-list'
 			)}
 		</p>

@@ -2,10 +2,10 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "cpl/podcast-episode-list",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"title": "Podcast Episode List",
 	"category": "widgets",
-	"icon": "smiley",
+	"icon": "archive",
 	"description": "List some recent posts of a certain post type.",
 	"supports": {
 		"html": false
