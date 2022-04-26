@@ -48,6 +48,7 @@ define( 'CPL_POD_MGMT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once( CPL_POD_MGMT_PLUGIN_DIR . 'register-post-type.php' );
 require_once( CPL_POD_MGMT_PLUGIN_DIR . 'block-pattern.php' );
+require_once( CPL_POD_MGMT_PLUGIN_DIR . 'podcast-episode-list-block/' . 'podcast-episode-list.php' );
 
 
 add_action( 'init', __NAMESPACE__ . '\cpl_register_podcast_episode' );
