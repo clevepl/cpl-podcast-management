@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:       Podcast Episode List
- * Description:       Example block written with ESNext standard and JSX support – build step required.
+ * Plugin Name:       Recent Podcast Episode List
+ * Description:       Displays list of recently published posts of 'podcast_episode'.
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           0.1.0
- * Author:            The WordPress Contributors
+ * Version:           0.1.2
+ * Author:            Will Skora and the CPL Team
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       podcast-episode-list
