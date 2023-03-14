@@ -2,9 +2,8 @@
 
 namespace cpl\podcast_management;
 
-add_action( 'init', __NAMESPACE__ . '\register_cpl_block_pattern_categories' );
 
-function register_cpl_block_pattern_categories() {
+function cpl_register_block_pattern_categories() {
 	register_block_pattern_category(
 		'ocftb',
 		array( 'label' => __( 'OCFTB', 'cpl-podcast-management' ) )
@@ -18,7 +17,7 @@ function cpl_register_block_patterns() {
 		array(
 			'title'       => __( 'Podcast Episode Pattern', 'cpl-podcast-management' ),
 			'description' => _x( 'contains several blocks for the podcast template', 'Block pattern description', 'cpl-podcast-management' ),
-			'categories' => array( 'ocftb' ),
+			'categories'  => array( 'ocftb' ),
 			'content'     => '<!-- wp:html /-->
 
 		<!-- wp:heading -->
