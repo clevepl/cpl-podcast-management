@@ -48,11 +48,11 @@ define( 'CPL_POD_MGMT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once( CPL_POD_MGMT_PLUGIN_DIR . 'register-post-type.php' );
 require_once( CPL_POD_MGMT_PLUGIN_DIR . 'block-pattern.php' );
-require_once( CPL_POD_MGMT_PLUGIN_DIR . 'podcast-episode-list-block/' . 'podcast-episode-list.php' );
-
 
 add_action( 'init', __NAMESPACE__ . '\cpl_register_podcast_episode' );
 add_action( 'init', __NAMESPACE__ . '\cpl_register_block_patterns' );
+add_action( 'init', __NAMESPACE__ . '\cpl_register_block_pattern_categories' );
+
 
 // https://codex.wordpress.org/Function_Reference/register_post_type#Flushing_Rewrite_on_Activation
 // This is to flush rewrites so if I decide to change the path of the CPT, it will auotmatically
