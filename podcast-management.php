@@ -17,9 +17,9 @@ namespace cpl\podcast_management;
  * @wordpress-plugin
  * Plugin Name:       CPL Podcast Episode Management
  * Plugin URI:        https://gitlab.com/cpl/cpl-podcast-management
- * Description:       Registering OCFTB's Podcasts
+ * Description:       Providing Post Registration & Patterns for CPL's Podcasts
  * Requires PHP:      7.2+
- * Version:           1.1.0
+ * Version:           1.1.9
  * Author:            Will Skora & The CPL Team
  * Author URI:        https://gitlab.com/cpl/cpl-podcast-management
  * License:           GPL-3.0+
@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 // not sure if this a standard?
-define( 'CPL_POD_MGMT_VERSION', '1.1.8' );
+define( 'CPL_POD_MGMT_VERSION', '1.1.9' );
 
 // set the base directory
 define( 'CPL_POD_MGMT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
