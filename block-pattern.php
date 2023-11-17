@@ -47,7 +47,7 @@ function cpl_register_block_patterns() {
 		<!-- /wp:pb/accordion-item -->
 
 		<!-- wp:paragraph -->
-		<p>If you enjoy <em>Page Count</em>, please subscribe and spread the word. Get in touch by <a href="mailto:ohiocenterforthebook@cpl.org">emailing us</a> (put “podcast” in the subject line) or find us on <a rel="noreferrer noopener" href="https://twitter.com/cplocfb" target="_blank">Twitter</a> or on <a rel="noreferrer noopener" href="https://www.facebook.com/ohiocenterforthebook" target="_blank">Facebook</a>. Learn more about <a href="https://www.cpl.org" data-type="link" data-id="https://www.cpl.org">Cleveland Public Library</a>. </p>
+		<p>If you enjoy <em>Page Count</em>, please subscribe and spread the word. Get in touch by <a href="mailto:ohiocenterforthebook@cpl.org">emailing us</a> (put “podcast” in the subject line) or find us on <a href="https://www.instagram.com/ohiocenterforthebook/" data-type="link" data-id="https://www.instagram.com/ohiocenterforthebook/">Instagram</a>, <a href="https://twitter.com/cplocfb">Twitter</a> or <a href="https://www.facebook.com/ohiocenterforthebook">Facebook</a>. Learn more about <a href="https://www.cpl.org" data-type="link" data-id="https://www.cpl.org">Cleveland Public Library</a>. </p>
 		<!-- /wp:paragraph -->',
 		)
 	);
