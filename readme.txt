@@ -2,7 +2,7 @@
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 1.1.9
+Stable tag: 1.20
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,8 @@ Registers a custom post type (a podcast episode); each post is an \'podcast_epis
 Assumes that CPL will only have 1 podcast (Page Count) for the foreseeable future 
 
 Creates a block pattern is designed to be inserted in each post
+
+synced-patterns - contains a pattern that is later used as a synced-pattern in block-pattern.php
 
 Expects secondline-themes/podcast-subscribe-button and pb/accordion-item blocks to be installed. 
 

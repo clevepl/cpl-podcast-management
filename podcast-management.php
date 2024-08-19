@@ -16,12 +16,12 @@ namespace cpl\podcast_management;
  *
  * @wordpress-plugin
  * Plugin Name:       CPL Podcast Episode Management
- * Plugin URI:        https://gitlab.com/cpl/cpl-podcast-management
+ * Plugin URI:        https://github.com/clevepl/cpl-podcast-management
  * Description:       Providing Post Registration & Patterns for CPL's Podcasts
  * Requires PHP:      7.2+
- * Version:           1.1.9
+ * Version:           1.2.0
  * Author:            Will Skora & The CPL Team
- * Author URI:        https://gitlab.com/cpl/cpl-podcast-management
+ * Author URI:        https://github.com/clevepl/cpl-podcast-management
  * License:           GPL-3.0+
  * License URI:       https://choosealicense.com/licenses/gpl-3.0/
  * Text Domain:       cpl-podcast-management
@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 // not sure if this a standard?
-define( 'CPL_POD_MGMT_VERSION', '1.1.9' );
+define( 'CPL_POD_MGMT_VERSION', '1.2.0' );
 
 // set the base directory
 define( 'CPL_POD_MGMT_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );

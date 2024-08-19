@@ -1,0 +1,6 @@
+{
+  "__file": "wp_block",
+  "title": "Podcast Services",
+  "content": "<!-- wp:secondline-themes/podcast-subscribe-button {\"secondline_psb_select_type\":\"icons\",\"secondline_psb_repeat_subscribe\":[{\"secondline_psb_subscribe_platform\":\"Apple-Podcasts\",\"secondline_psb_subscribe_url\":\"https://podcasts.apple.com/us/podcast/page-count/id1618979308\",\"secondline_psb_custom_link_label\":\"label\"},{\"secondline_psb_subscribe_platform\":\"Amazon-Music\",\"secondline_psb_subscribe_url\":\"https://music.amazon.com/podcasts/3713e537-b78c-4625-a05b-319e8c896262\",\"secondline_psb_custom_link_label\":\"label\"},{\"secondline_psb_subscribe_platform\":\"Spotify\",\"secondline_psb_subscribe_url\":\"https://open.spotify.com/show/0bFJEHoiQdSotBPgP4Vqt7\",\"secondline_psb_custom_link_label\":\"label\"},{\"secondline_psb_subscribe_platform\":\"RSS\",\"secondline_psb_subscribe_url\":\"https://feed.podbean.com/ohiocenterforthebook/feed.xml\",\"secondline_psb_custom_link_label\":\"sample\"},{\"secondline_psb_subscribe_platform\":\"iHeartRadio\",\"secondline_psb_subscribe_url\":\"https://iheart.com/podcast/95513644\",\"secondline_psb_custom_link_label\":\"label\"}]} /-->",
+  "syncStatus": ""
+}
